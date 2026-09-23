@@ -1,0 +1,25 @@
+title: DotsPo — Connecting dots
+email: jhuppoapps@gmail.com
+description: "DotsPo merges mesmerizing dot-connecting gameplay with the inspiring life journeys of Steve Jobs, Nikola Tesla, Marie Curie, and more. Connect colorful paths, collect authentic historical artifacts, and lose yourself in soothing soundscapes."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://dotspo.jhuppo.com"
+author: "DotsPo Studio"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - node_modules
+
+# Social and SEO defaults
+twitter_username: dotspoapp
+theme_color: "#5B92E5"
+accent_dark: "#354A5F"

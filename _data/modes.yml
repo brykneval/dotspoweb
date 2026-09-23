@@ -1,0 +1,38 @@
+- id: story
+  title: "Story Mode"
+  badge: "Narrative Chapters"
+  badge_color: "#1E40AF"
+  description: "Relive history through the eyes of world-changing innovators. Connect dots to solve milestones and unlock authentic historical artifacts and diary clues."
+  highlights:
+    - "5 Chapters & 75 levels per story"
+    - "Milestones from 1856 to modern era"
+    - "Archival clue gallery & diary rewards"
+  icon: "book"
+  accent: "#354A5F"
+  featured: true
+
+- id: competitive
+  title: "Competitive Mode"
+  badge: "Fast-Paced Sprint"
+  badge_color: "#9F1239"
+  description: "A thrilling time-attack test of reflexes and vision. Connect 3+ dots to build massive combos, trigger the 15-second 2X multiplier frenzy, and climb leaderboards."
+  highlights:
+    - "30s core rush + 15s 2X bonus"
+    - "Requires 3+ connected dots"
+    - "Global high-score competition"
+  icon: "timer"
+  accent: "#E63946"
+  featured: false
+
+- id: endless
+  title: "Endless Mode"
+  badge: "Zen & Mindful"
+  badge_color: "#047857"
+  description: "No move limits, no ticking clocks. Just your fingertips, tranquil chimes, and a continually refreshing canvas of soothing color connections."
+  highlights:
+    - "Infinite peaceful puzzle flow"
+    - "Adaptive color balance"
+    - "Ideal for mindful meditation"
+  icon: "infinity"
+  accent: "#68A86C"
+  featured: false

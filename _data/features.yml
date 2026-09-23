@@ -1,0 +1,29 @@
+- title: "Archival Story Milestones"
+  description: "Every level is anchored in a real historical event. Collect authentic quotes, diary entries, and invention schematics as you progress."
+  icon: "scroll"
+  dot_color: "#5B92E5"
+
+- title: "Calming Pentatonic Audio"
+  description: "Each connected dot chimes in harmonious pitch. Strings of dots create soothing melodic arcs inspired by acoustic bells and marimbas."
+  icon: "music"
+  dot_color: "#68A86C"
+
+- title: "Tactile Precision"
+  description: "Designed for silky-smooth drag gestures, instant feedback, and gentle haptic pulses that make every connection deeply satisfying."
+  icon: "touch"
+  dot_color: "#EE6D6B"
+
+- title: "Play Anywhere Offline"
+  description: "No Wi-Fi required to play through chapters or relax in Endless mode. Perfect for daily commutes, flights, and quiet moments."
+  icon: "airplane"
+  dot_color: "#E6A217"
+
+- title: "Mindful, Clean Aesthetic"
+  description: "A sanctuary for your attention. Beautiful Scandinavian typography, crisp white space, and zero aggressive ad popups."
+  icon: "feather"
+  dot_color: "#B85D94"
+
+- title: "Global Competitive Rush"
+  description: "Put your pattern recognition to the ultimate test in timed 30s + 15s speedruns and challenge friends on global leaderboards."
+  icon: "trophy"
+  dot_color: "#9F1239"

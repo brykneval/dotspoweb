@@ -1,0 +1,54 @@
+<section class="modes-section" id="modes">
+  <div class="container">
+    <div class="section-badge-wrapper text-center">
+      <span class="section-badge">Game Modes</span>
+      <h2 class="section-title">Three Ways to Play</h2>
+      <p class="section-subtitle">
+        Whether you crave deep narrative discovery, high-octane speedruns, or mindful relaxation, DotsPo adapts to your mood.
+      </p>
+    </div>
+
+    <div class="modes-grid">
+      {% for mode in site.data.modes %}
+      <div class="mode-card {% if mode.featured %}mode-card-featured{% endif %}">
+        <div class="mode-header">
+          <span class="mode-badge" style="background-color: {{ mode.badge_color }}15; color: {{ mode.badge_color }}; border-color: {{ mode.badge_color }}40;">
+            {{ mode.badge }}
+          </span>
+          <div class="mode-icon-circle" style="background-color: {{ mode.badge_color }}12; color: {{ mode.badge_color }};">
+            {% if mode.icon == 'book' %}
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+              </svg>
+            {% elsif mode.icon == 'timer' %}
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            {% elsif mode.icon == 'infinity' %}
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18.178 8c5.096 0 5.096 8 0 8-5.095 0-7.083-8-12.178-8-5.096 0-5.096 8 0 8 5.095 0 7.083-8 12.178-8z"></path>
+              </svg>
+            {% endif %}
+          </div>
+        </div>
+
+        <h3 class="mode-title">{{ mode.title }}</h3>
+        <p class="mode-description">{{ mode.description }}</p>
+
+        <ul class="mode-highlights">
+          {% for item in mode.highlights %}
+          <li>
+            <svg class="check-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="{{ mode.badge_color }}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>{{ item }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
